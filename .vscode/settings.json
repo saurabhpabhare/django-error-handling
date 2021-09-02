@@ -1,0 +1,72 @@
+{
+    "python.defaultInterpreterPath": "/Users/varun/sources/django-error-handling/.venv/bin/python",
+    "python.linting.enabled": true,
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_django",
+        "pylint_mongoengine"
+    ],
+    "python.jediEnabled": false,
+    "python.analysis.openFilesOnly": false,
+    "python.autoComplete.extraPaths": [
+        "/Users/varun/sources/django-error-handling/.venv/lib/python3.8/site-packages",
+        "/Users/varun/sources/django-error-handling/"
+    ],
+    "python.linting.ignorePatterns": [
+        ".vscode/*.py",
+        "**/site-packages/**/*.py",
+        "/Users/varun/sources/django-error-handling/.venv/**/*.py"
+    ],
+    "prettier.useTabs": true,
+    "prettier.tabWidth": 4,
+    "prettier.jsxBracketSameLine": true,
+    "prettier.trailingComma": "all",
+    "prettier.printWidth": 120,
+    "python.linting.pylintEnabled": false,
+    "bracketPairColorizer.forceUniqueOpeningColor": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "jsx-sublime-babel-tags": "javascriptreact"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showExpandedAbbreviation": "never",
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx",
+    },
+    "javascript.validate.enable": false,
+    "workbench.editor.enablePreview": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "bracketPairColorizer.forceIterationColorCycle": true,
+    "editor.fontWeight": "500",
+    "editor.fontLigatures": true,
+    "editor.letterSpacing": 0.5,
+    "editor.cursorWidth": 5,
+    "editor.renderWhitespace": "all",
+    "editor.snippetSuggestions": "top",
+    "editor.glyphMargin": true,
+    "editor.minimap.enabled": false,
+    "terminal.integrated.fontWeight": "400",
+    "editor.fontFamily": "Fira Code, iA Writer Duospace, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "window.zoomLevel": 3,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "workbench.fontAliasing": "auto",
+    "terminal.integrated.macOptionIsMeta": true,
+    "prettier.bracketSpacing": true,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeightBold": "700",
+    "terminal.integrated.lineHeight": 1.6,
+    "python.languageServer": "Pylance",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "terminal.external.osxExec": "iTerm.app",
+    "python.formatting.provider": "black",
+    "python.analysis.extraPaths": [
+        "/Users/varun/sources/django-error-handling/.venv/lib/python3.8/site-packages",
+        "/Users/varun/sources/django-error-handling/"
+    ],
+    "python.linting.banditEnabled": true,
+
+}
