@@ -1,4 +1,5 @@
 from django.db import models
+from django.core.exceptions import ValidationError
 
 # Create your models here.
 
@@ -11,6 +12,10 @@ class Author(models.Model):
 
     def __str__(self):
         return self.name
+
+    # def clean(self):
+    #     if self.name[0].isdigit():
+    #         raise ValidationError("Author Name cannot start with a digit")
 
 class Book(models.Model):
     name = models.CharField(max_length=250)
